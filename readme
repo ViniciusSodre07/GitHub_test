@@ -1,0 +1,173 @@
+inslatar o git:
+https://git-scm.com/install/windows?utm_source=chatgpt.com
+
+
+
+Instalação
+
+Baixe:
+
+Git for Windows
+
+Depois da instalação abra:
+
+Git Bash
+Projeto prático
+
+Vamos criar um projeto simples.
+
+Passo 1
+
+Crie uma pasta:
+
+ProjetoGit
+
+Dentro dela crie:
+
+print("Olá GitHub!")
+
+Salve como:
+
+main.py
+Passo 2
+
+Abra o terminal na pasta.
+
+Digite:
+
+git init
+
+Resultado:
+
+Initialized empty Git repository
+
+Agora a pasta virou um repositório Git.
+
+Passo 3
+
+Verificar status
+
+git status
+
+Resultado:
+
+Untracked files:
+main.py
+
+O Git viu o arquivo mas ainda não está sendo controlado.
+
+Passo 4
+
+Adicionar arquivo
+
+git add .
+
+ou
+
+git add main.py
+Passo 5
+
+Criar primeiro commit
+
+git commit -m "Primeiro commit"
+
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+Exemplo:
+
+[main]
+Primeiro commit
+
+Agora você salvou uma versão do projeto.
+
+Visualizando histórico
+git log
+
+Resultado:
+
+commit a8c123...
+Author: Vinicius
+
+Primeiro commit
+Fazendo alterações
+
+Modifique:
+
+print("Olá GitHub!")
+print("Projeto ESP32")
+
+Verifique:
+
+git status
+
+Vai mostrar:
+
+modified: main.py
+
+Faça novo commit:
+
+git add .
+git commit -m "Adicionado texto ESP32"
+
+Agora existem duas versões do projeto.
+
+Criando conta no GitHub
+
+Acesse:
+
+GitHub
+
+Crie uma conta.
+
+Criando repositório online
+
+Clique:
+
+New Repository
+
+Nome:
+
+ProjetoGit
+
+Marque:
+
+Public
+
+Clique:
+
+Create Repository
+Ligando Git ao GitHub
+
+O GitHub mostrará algo parecido:
+
+git remote add origin https://github.com/usuario/ProjetoGit.git
+
+Execute no terminal.
+
+Enviando para o GitHub
+
+Primeira vez:
+
+git branch -M main
+
+git push -u origin main
+
+Depois informe:
+
+usuário GitHub
+token ou login pelo navegador
+Fluxo diário de trabalho
+
+Sempre que modificar algo:
+
+git status
+
+git add .
+
+git commit -m "Descrição da alteração"
+
+git push
+
+Esse é o fluxo usado por desenvolvedores diariamente.
