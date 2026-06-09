@@ -171,3 +171,25 @@ git commit -m "Descrição da alteração"
 git push
 
 Esse é o fluxo usado por desenvolvedores diariamente.
+
+
+
+Próximo passo recomendado
+
+Depois que entender esses comandos básicos, aprenda nesta ordem:
+
+Git Clone (git clone)
+Git Pull (git pull)
+Git Branch (git branch)
+Git Checkout (git checkout)
+Pull Request
+GitHub Actions
+Versionamento de firmware ESP32
+
+git log --oneline
+
+4. Método mais seguro: criar um commit que desfaz outro
+
+Se você já enviou o código para o GitHub, normalmente é melhor usar:
+
+git revert 8f3a2b1
